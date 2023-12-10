@@ -106,15 +106,14 @@ p {
 
 .logo {
   max-width: 130px;
-
 }
 
-.btn1{
-  border-radius: 8px;
+.btn1 {
+  border-radius: 25px;
   box-shadow: var(--box-shadow);
   border: none;
   padding: 20px;
-  background: rgb(160, 111, 206);
+  background: blueviolet;
   color: white;
-  
+  font-weight: 500;
 }
