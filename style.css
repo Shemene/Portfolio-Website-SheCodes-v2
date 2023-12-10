@@ -108,3 +108,13 @@ p {
   max-width: 130px;
 
 }
+
+.btn1{
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  border: none;
+  padding: 20px;
+  background: rgb(160, 111, 206);
+  color: white;
+  
+}
