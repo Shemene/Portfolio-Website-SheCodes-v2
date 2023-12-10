@@ -109,11 +109,19 @@ p {
 }
 
 .btn1 {
-  border-radius: 25px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
   border: none;
-  padding: 20px;
+  padding: 10px;
   background: blueviolet;
   color: white;
   font-weight: 500;
+  transition: all 200ms;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  color: blueviolet;
+  background-color: white;
+  text-decoration: none;
 }
