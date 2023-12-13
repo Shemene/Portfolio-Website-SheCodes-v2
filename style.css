@@ -49,11 +49,13 @@ p {
 .contact:hover {
   color: white;
   background: blueviolet;
+  text-decoration: none;
 }
 
 .about:hover {
   color: blueviolet;
   background: white;
+  text-decoration: none;
 }
 
 /*About page*/
@@ -74,7 +76,7 @@ p {
 }
 .home-link:hover {
   color: white;
-  background: blueviolet;
+  background: rgb(112, 62, 160);
   text-decoration: none;
 }
 #about {
@@ -84,9 +86,10 @@ p {
 }
 #about-p-one {
   font-family: var(--page-font);
-  font-size: 20px;
-  color: black;
+  font-size: 30px;
+  color: rgb(133, 105, 105);
   font-weight: 400;
+  text-align: center;
 }
 .contaner-about {
   display: flex;
@@ -98,6 +101,12 @@ p {
   text-decoration: none;
   color: rgb(80, 3, 153);
   font-size: 20px;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: #e2b7e6;
 }
 
 .p-one {
@@ -134,21 +143,28 @@ p {
 }
 
 .custom-box {
-  border: 4px solid rgb(238, 209, 209); 
-  background-color: #ddd4dd; 
-  padding: 35px;
-  text-align: center; 
-  height: 100%; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  border-radius: 50px;
+  border: 2px solid #e2b7e6;
+  background-color: #f4dff6;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
 }
 
-.col-4 {
-  display: flex; 
-}
-
-.col-4 > div {
-  height: 100%; 
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-md-4 {
+    display: flex;
+    flex: 1 0 33.333333%;
+  }
+  .col-md-4 > div {
+    height: 100%;
+    width: 100%;
+  }
 }
